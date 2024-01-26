@@ -3,6 +3,8 @@ name = "supply-attack-legit-library-rust-traits"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# Update the version to 0.2.0
 
 [dependencies]
+supply-attack-rust-traits-fake-lib = { git = "https://github.com/dannywillems/supply-attack-rust-traits-fake-lib/", tag = "0.1.0" }

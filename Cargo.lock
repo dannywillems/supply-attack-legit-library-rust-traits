@@ -5,3 +5,11 @@ version = 3
 [[package]]
 name = "supply-attack-legit-library-rust-traits"
 version = "0.1.0"
+dependencies = [
+ "supply-attack-rust-traits-fake-lib",
+]
+
+[[package]]
+name = "supply-attack-rust-traits-fake-lib"
+version = "0.1.0"
+source = "git+https://github.com/dannywillems/supply-attack-rust-traits-fake-lib/?tag=0.1.0#183476f4c5a0460f55471437989e14436b6b0a89"
